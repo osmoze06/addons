@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="plugin.program.skinrayflix" version="0.0.1" name="Skin Rayflix" provider-name="Rayflix">
+<addon id="plugin.program.skinrayflix" version="1.0.0" name="Skin Rayflix" provider-name="Rayflix">
 	<requires>
 		<import addon="script.module.requests" />
 	</requires>
     <extension point="xbmc.python.pluginsource" library="default.py">
         <provides>video executable</provides>
     </extension>
-    <extension point="xbmc.service" library="service.py" start="startup"/>
     <extension point="xbmc.addon.metadata">
         <summary lang="en">Skin Rayflix</summary>
         <description lang="en">Packages de Skin réalisé par Rayflix sur la monture du skin "Project Aura".</description>
